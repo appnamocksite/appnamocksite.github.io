@@ -1,2 +1,2 @@
-# appnamocksite.github.io
-Appna website test
+# appna-website
+Bootstrap 4 Website for the APPNA organization.

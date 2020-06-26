@@ -1,0 +1,31 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container, .container-fluid {
+    background-image: url("images/moroccan-flower.png");
+}
+
+#navbar {
+    border-bottom: 2px solid #006600;
+}
+
+/* Move carousel caption to top of image */
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+
+.carousel-item img {
+    border-bottom: 2px solid #006600;
+}
+
+a, #mission, #contact {
+    color: #006600 !important;
+}
+
+#missionSec, #contactSec {
+    margin: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
