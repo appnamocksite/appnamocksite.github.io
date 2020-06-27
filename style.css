@@ -28,13 +28,18 @@ a, #mission, #contact, #board, #covid {
     font-weight: bolder;
 }
 
-#missionSec, #contactSec {
+#missionSec, #contactSec, #boardSec, #covidSec {
     margin: 30px;
     font-style: italic;
     font-weight: bold;
 }
 
-#accordian {
-    border-left: 1px dashed #006600;
-    border-right: 1px dashed #006600;
+#accordian, .fb-page {
+    border-left: 1px solid #006600;
+    border-right: 1px solid #006600;
+}
+
+.footer-copyright {
+    border-top: 1px dotted #006600;
+
 }
