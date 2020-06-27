@@ -40,19 +40,23 @@
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navDropdown">
                                     <a class="btn btn-primary dropdown-item" data-toggle="collapse" href="#missionCollapse">Mission</a>
+                                    <a class="dropdown-item" data-toggle="collapse" href="#boardCollapse" href="boardCollapse">Executive Committee</a>
                                     <a class="dropdown-item" href="https://appna.org" target="_blank">National APPNA</a>
                                     <a class="dropdown-item" href="/bylaws.pdf" target="_blank">Bylaws</a>
                                 </div>
                             </li>
                             <!-- Contact Us Menu -->
                             <li class="nav-item">
-                                <a class="nav-link btn btn-primary dropdown-item" data-toggle="collapse" href="#contactCollapse">Contact</a>
+                                <a class="nav-link" data-toggle="collapse" href="#contactCollapse">Contact</a>
                             </li>
                             <!-- Facebook Plugin -->
                             <li class="nav-item">
                                 <a class="nav-link" href="https://www.facebook.com/APPNA-Northern-California-Chapter-135955409917905" target="_blank">
                                     <img src="images/favicon.ico" />
                                 </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="collapse" href="#covidCollapse" id="covidNav">Covid-19 Update</a>
                             </li>
                         </ul>
                     </div>
@@ -104,6 +108,21 @@
                     <div class="col">
                         <div id="accordian">
                             <div class="card">
+                                <div class="card-header text-center" id="contactSec">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" data-toggle="collapse" data-target="#covidCollapse" aria-expanded="true" aria-controls="covidCollapse">
+                                            <h5 id="covid">Covid Update</h5>
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="covidCollapse" aria-labelledby="covidSec" data-parent="#accordian">
+                                    <div class="card-body">
+                                        <p>Current covid information & updates. Links to appna covid webinars. </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="card">
                                 <div class="card-header text-center" id="missionSec">
                                     <h5 class="mb-0">
                                         <button class="btn btn-link" data-toggle="collapse" data-target="#missionCollapse" aria-expanded="true" aria-controls="missionCollapse">
@@ -118,6 +137,20 @@
                                 </div>
                             </div>
                             <div class="card">
+                                <div class="card-header text-center" id="boardSec">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" data-toggle="collapse" data-target="#boardCollapse" aria-expanded="true" aria-controls="boardCollapse">
+                                            <h5 id="board">Executive Committee</h5>
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="boardCollapse" aria-labelledby="boardSec" data-parent="#accordian">
+                                    <div class="card-body">
+                                        <p>List of board members.</p> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
                                 <div class="card-header text-center" id="contactSec">
                                     <h5 class="mb-0">
                                         <button class="btn btn-link" data-toggle="collapse" data-target="#contactCollapse" aria-expanded="true" aria-controls="contactCollapse">
@@ -127,7 +160,7 @@
                                 </div>
                                 <div class="collapse" id="contactCollapse" aria-labelledby="aboutSec" data-parent="#accordian">
                                     <div class="card-body text-center">
-                                        Contact us at example@gmail.com
+                                        <p>Contact us at example@gmail.com</p> 
                                     </div>
                                 </div>
                             </div>
