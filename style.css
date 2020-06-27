@@ -20,12 +20,21 @@
     border-bottom: 2px solid #006600;
 }
 
-a, #mission, #contact {
+a, #mission, #contact, #board, #covid {
     color: #006600 !important;
+}
+
+#covidNav {
+    font-weight: bolder;
 }
 
 #missionSec, #contactSec {
     margin: 30px;
     font-style: italic;
     font-weight: bold;
+}
+
+#accordian {
+    border-left: 1px dashed #006600;
+    border-right: 1px dashed #006600;
 }
